@@ -318,45 +318,23 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-}
-
-.icon-box-wsp {
-  background: rgba(168, 209, 86, 0.25);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
   color: #FFFFFF;
+  transition: border-color var(--ease-snappy), background var(--ease-snappy), transform var(--ease-snappy);
 }
 
-.icon-box-enzyme {
-  background: rgba(168, 209, 86, 0.15);
-  color: var(--cs-lime-500);
-}
-
-.icon-box-site {
-  background: rgba(46, 115, 112, 0.35);
-  color: var(--cs-lime-500);
+.btn-card-standard:hover .icon-box,
+.btn-product-highlight:hover .icon-box,
+.btn-bio-highlight:hover .icon-box {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #FFFFFF;
+  transform: scale(1.05);
 }
 
 .icon-box-google {
   background: rgba(255, 255, 255, 0.08);
-}
-
-.icon-box-insta {
-  background: rgba(225, 48, 108, 0.16);
-  color: #F77737;
-}
-
-.icon-box-fb {
-  background: rgba(24, 119, 242, 0.16);
-  color: #1877F2;
-}
-
-.icon-box-in {
-  background: rgba(0, 119, 181, 0.16);
-  color: #0A66C2;
-}
-
-.icon-box-yt {
-  background: rgba(255, 0, 0, 0.16);
-  color: #FF0000;
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
 }
 
 .btn-text-group {
